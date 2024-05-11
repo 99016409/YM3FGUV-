@@ -1,1 +1,21 @@
 git命令练习
+
+之后复习git命令可以参考该文章进行，目前就当git是个网盘即可
+
+git命令练习
+
+git init 初始化本地仓库
+
+git add 添加文件到本地git仓库以便监视其变化，“git add .”则是添加当前文件夹中的所有文件
+git status 可以查看本地git仓库中文件的状态，比如“已提交”，“修改了但未提交”
+
+git commit -m "提交版本信息"
+
+git branch 可以看见自己在操作哪个分支
+
+git remote add origin （git仓库地址）  可以与远程git仓库建立起连接
+
+git push -u origin 分支名  -->提交到git仓库
+
+git log 可以看见git仓库过去提交版本的版本号-->用于回滚版本
+git reset --hard 版本号-->回滚版本【但这种操作会将更新的版本记录删除，有风险】
