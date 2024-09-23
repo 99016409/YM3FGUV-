@@ -19,3 +19,7 @@ git push -u origin 分支名  -->提交到git仓库
 
 git log 可以看见git仓库过去提交版本的版本号-->用于回滚版本
 git reset --hard 版本号-->回滚版本【但这种操作会将更新的版本记录删除，有风险】
+
+
+
+sjdkjskdjskjdksjdksjkd测试合并分支
